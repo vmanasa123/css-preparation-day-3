@@ -1,0 +1,72 @@
+.btwn{
+    width: 200px;
+    height:50px ;
+    background-color: #00a5ec;
+    color:aliceblue;
+    border-radius: 10px;
+}
+
+
+
+
+.font{
+    font-family:"sofia",sans-serif;
+}
+
+.text{
+    font-family: "sofia",sans-serif;
+}
+
+
+
+
+.box{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transition: width 5s;
+}
+.box :hover{
+    width: 200px;
+}
+
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+
+
+   /* when the browser is at least 500px and above. */
+@media screen and (min-width:500px){
+.element{
+     /* apply some styles */
+}
+}
+
+
+
+div{
+    width: 80px;
+    height: 50px;
+    background-color: red;
+    animation-name: man;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes man{
+    0% {background-color:aqua}
+    25%{background-color: blueviolet;}
+    50%{background-color: maroon;}
+    75%{background-color: chocolate;}
+    100%{background-color: magenta;}
+
+
+
+    
+}
